@@ -1,0 +1,12 @@
+@@
+1. PERLDOC -- PERL DOCUMENTATION SYSTEM
+
+The perldoc command should be available on any system which has Perl properly installed.
+
+To get help on a module, we could use:
+
+perldoc IO::File
+
+To get help on a function, we can use:
+
+perldoc -f print
