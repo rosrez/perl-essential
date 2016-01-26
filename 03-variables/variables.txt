@@ -1,0 +1,11 @@
+@@
+1. SCALAR VARIABLES
+
+$number = 42;
+
+Scalar variable names are preceded with the dollar sign ($).
+
+@@
+2. PERL IS NOT A STRONGLY TYPED LANGUAGE.
+
+Perl uses context to determine a variable type.
