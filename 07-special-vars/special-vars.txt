@@ -1,0 +1,40 @@
+@@
+1. WHERE SPECIAL VARIABLES ARE DOCUMENTED
+
+Type
+
+perldoc perlvar
+
+to see the list of all Perl's special variables.
+
+@@
+2. $_ -- DEFAULT INPUT
+
+Default values of loops or any 
+
+@@
+3. $1, $2, $3 -- PATTERN RESULTS
+
+@@
+4. $! -- SYSTEM ERROR NUMBER OR STRING
+
+@@
+5. $@ -- eval() ERROR
+
+@@
+6. $$ -- PROCESS ID (PID)
+
+@@
+7. $0 -- PROGRAM NAME
+
+@@
+8. @_ -- LIST OF ARGUMENTS AS VISIBLE FROM A SUBROUTINE
+
+@@
+9. @ARGV -- LIST OF COMMAND-LINE ARGUMENTS
+
+@@
+10. %ENV -- (HASH OF) ENVIRONMENT VARIABLES
+
+@@
+11. @INC -- LIST OF PATHS PERL SEARCHES FOR LIBRARIES AND MODULES
