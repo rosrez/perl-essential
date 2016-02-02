@@ -1,0 +1,14 @@
+This page describes the syntax of regular expressions in Perl.
+
+If you haven't used regular expressions before, a quick-start introduction
+is available in perlrequick, and a longer tutorial introduction is
+available in perlretut.
+
+For reference on how regular expressions are used in matching operations,
+plus various examples of the same, see discussions of "m//", "s///",
+"qr//" and "??" in "Regexp Quote-Like Operators" in perlop.
+
+New in v5.22, "use re 'strict'" applies stricter rules than otherwise when
+compiling regular expression patterns. It can find things that, while
+legal, may not be what you intended.
+
