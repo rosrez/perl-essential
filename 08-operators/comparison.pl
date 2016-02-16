@@ -1,10 +1,13 @@
 #!/usr/bin/perl
 
+use strict;
+use warnings;
+
 main(@ARGV);
 
 sub usage
 {
-    die ("usage: $ARGV[0] arg1 arg2");
+    die ("usage: $0 arg1 arg2");
 }
 
 sub main

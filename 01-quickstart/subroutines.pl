@@ -9,7 +9,7 @@ main(@ARGV);
 # entry point
 sub main
 {
-    # this will assign ARGV[1] or lines.txt if there is no command-line argument
+    # this will assign ARGV[0] or lines.txt if there is no command-line argument
     my $filename = shift || "lines.txt";
     # call our subroutine that returns the number of lines in the file
     my $count = countlines( $filename );
